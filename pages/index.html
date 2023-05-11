@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinefilios</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <style>
+    .card {
+      max-width: 350px;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .card_img {
+      width: 120px;
+      height: 120px;
+      overflow: hidden;
+      border-radius: 100%;
+      margin: -60px auto 0;
+    }
+
+    .card_img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(192, 192, 192);
+    }
+
+    a:hover {
+      color: #000000;
+      transition: 0.3s;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<style>
+  .p1 {
+    font-family: Impact;
+    text-decoration: none;
+  }
+</style>
+
+<body class="bg-dark">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://127.0.0.1:5500/pages/index.html"><img src="/pages/Sinefilios Logo.png"
+          alt="logo" width="50" height="50"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="p1" class="nav-item">
+            <a class="nav-link" href="yazilar.html">Yazılar</a>
+          </li>
+          <li class="p1" class="nav-item">
+            <a class="nav-link" href="listler.html">Film Listeleri</a>
+          </li>
+          <li class="p1" class="nav-item">
+            <a class="nav-link" href="filmşad.html">Filmşad</a>
+          </li>
+        </ul>
+      </div>
+      <form class="d-flex" role="search" style="margin-right: 20px;">
+        <input class="form-control me-2" type="search" placeholder="Arama Yap" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Ara</button>
+      </form>
+    </div>
+  </nav>
+  <div class="container py-1">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a class="slide-link" href="heisenberg_kimyasi.html"> <img src="/Başlıksız-1.png"
+              class="d-block w-100" alt=""></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="p1"> Heisenberg Kimyası</h1>
+            <p class="p1">Breaking Bad'in Kimyasal Sembolizmi.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a class="slide-link" href="amon_the_good.html"> <img src="/Başlıksız-2.png" class="d-block w-100"
+              alt=""></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="p1">Amon The "Good"</h1>
+            <p1 class="p1">"I Pardon You"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a class="slide-link" href="westworld_intro.html"> <img src="/Başlıksız-3.png" class="d-block w-100"
+              alt="..."> </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="p1">Westworld'ün Açılışları</h1>
+            <p class="p1">Etten Kemikten Robotlar.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <br>
+  <a href="listler.html">
+    <h1 class="p1" style="color: rgb(192, 192, 192);margin-left: 7px;">Listeler</h1>
+  </a>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card bg-dark" style="width: 18rem;">
+          <a href="psikoz.html"><img src="/Listeler/Psikoz-2.png" class="card-img-top" alt=""></a>
+          <div class="card-body">
+            <p class="card-text p1 " style="color: rgb(255, 255, 255); text-align: center; opacity:calc(0.75);">" Johnny
+              Burada! "</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-dark" style="width: 18rem;">
+          <a href="yakut.html"><img src="/Listeler/Yakut.png" class="card-img-top" alt=""></a>
+          <div class="card-body">
+            <p class="card-text p1 " style="color: rgb(255, 255, 255); text-align: center; opacity:calc(0.75);">" Atlar
+              pabuç giymez ki... "</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-dark" style="width: 18rem;">
+          <a href="realite.html"><img src="/Listeler/realite.png" class="card-img-top" alt=""></a>
+          <div class="card-body">
+            <p class="card-text p1 " style="color: rgb(255, 255, 255); text-align: center; opacity:calc(0.75);">"
+              Gerçeği Nasıl Tanımlarsın? "</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <a href="filmşad.html"><img src="/Filmşad logo.png" alt="" width="300" height="110" class="center"></a>
+  <h6 class="p1" style="text-align: center; color: rgb(192, 192, 192)">"Yönetmenlerin Yönettiği Filmler"</h6>
+  <hr style="color: rgb(192, 192, 192)">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card bg-dark">
+          <div class="card_img">
+            <img src="/Filmşad/Nolan.png" alt="user-image">
+          </div>
+          <div class="card_info">
+            <a href="nolan.html">
+              <h2 class="p1">Christopher Nolan</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-dark">
+          <div class="card_img">
+            <img src="/Filmşad/Fincher.png" alt="user-image">
+          </div>
+          <div class="card_info">
+            <a href="fincher.html">
+              <h2 class="p1">David Fincher</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-dark">
+          <div class="card_img">
+            <img src="/Filmşad/Jackson.png" alt="user-image">
+          </div>
+          <div class="card_info">
+            <a href="jackson.html">
+              <h2 class="p1">Peter Jackson</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <div style="text-align: center; margin-left: 7px; opacity:calc(0.45) ;" width="100" height="50"><i>
+      <p class="p1" style="color: aliceblue;">Made By Elessar~</p>
+    </i></div>
+  <br>
+</body>
+
+</html>
